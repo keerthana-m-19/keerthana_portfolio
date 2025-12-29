@@ -19,13 +19,31 @@ export const Projects = () => {
       title: "Artificial Intelligence",
       description: "AI Emotion Recognition",
       imgUrl: projImg2,
-      link: "https://github.com/keerthana-m-19/logistic_regression",
+      link: "https://github.com/keerthana-m-19/AI-Emotion-recognition",
     },
     {
       title: "Data Analytics",
-      description: "Data Visualization",
+      description: "Netflix Analysis",
       imgUrl: projImg3,
-      link: "https://github.com/keerthana-m-19/logistic_regression",
+      link: "https://github.com/keerthana-m-19/netflix-analysis",
+    },
+    {
+      title: "Machine Learning",
+      description: "K Nearest Neighbors",
+      imgUrl: projImg1,
+      link: "https://github.com/keerthana-m-19/KNN-Salary-Estimation",
+    },
+    {
+      title: "Computer Vision",
+      description: "Realtime yolov8",
+      imgUrl: projImg2,
+      link: "https://github.com/keerthana-m-19/realtime-yolov8",
+    },
+    {
+      title: "Data Analytics",
+      description: "Sales Data Analytics Dashboard",
+      imgUrl: projImg3,
+      link: "https://github.com/keerthana-m-19/Sales-Data-Analytics-Dashboard",
     },
   ];
 
