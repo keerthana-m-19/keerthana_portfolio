@@ -1,4 +1,4 @@
-/* Custom Fonts */
+/************ Custom Font ************/
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -243,7 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #c11b63 -5.91%, #000000 111.58%);
+  background: linear-gradient(90deg, rgba(223, 29, 100, 0.6) 0%, rgba(25, 2, 12, 0.9) 100%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -315,10 +315,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
-  
 }
 .skill p {
-    color: #ffffff;
+    color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -334,9 +333,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
   position: absolute;
-  bottom: 0;
+  top: 0;
+  transform: translateY(28%);
   width: 40%;
   z-index: -4;
 }
@@ -390,8 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #c11b63 -5.91%, #000000 111.58%);
-    top: 0;
+    background: linear-gradient(90.21deg, #c11b63 -5.91%, #000000 111.58%);top: 0;
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
@@ -458,15 +456,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-/* Make entire card clickable and text white */
-/* Force white text for project card links */
+
 .proj-imgbx a,
 .proj-imgbx a .proj-txtx h4,
 .proj-imgbx a .proj-txtx span {
   color: #fff !important;   /* make text white */
   text-decoration: none !important;  /* remove underline */
 }
-
 
 .background-image-right {
   top: 20%;
@@ -479,7 +475,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #c11b63 -5.91%, #000000 111.58%);
+  background: linear-gradient(90deg, #c9166c 0%, #98054c 60%, #000000 100%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -567,41 +563,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-}
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #ffffff;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
