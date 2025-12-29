@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
   const toRotate = useMemo(() => ["AI Engineer",
-    "Machine Learning Enthusiast",
+    "ML Enthusiast",
     "Data Analytics Explorer",
     "Robotics Developer"], []);
   const period = 2000;
@@ -46,7 +46,7 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{`Hi! I'm Keerthana`}<span className="wrap"> {text}</span></h1>
+            <h1>{`Hi! I'm Keerthana Aspiring`}<span className="wrap"> {text}</span></h1>
             <p>
               Passionate about Artificial Intelligence, Machine Learning,
                     and Data Analytics, I’m currently pursuing my B.Tech in AI & DS.
