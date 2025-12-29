@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container , Nav } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -29,8 +28,11 @@ export const NavBar = () => {
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" />
-          </Navbar.Brand>
+             <h2
+               style={{color: '#dc307aff', fontWeight: 'bold'}}>Keerthana M
+             </h2>
+           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
@@ -39,6 +41,8 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivateLink ('home')}>Home</Nav.Link>
               <Nav.Link href="#skills"className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivateLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivateLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="/keerthana m.pdf" target="_blank" rel="noopener noreferrer"className="navbar-link">Resume</Nav.Link>
+
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -51,6 +55,7 @@ export const NavBar = () => {
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=keerthanam6750@gmail.com" target="_blank" rel="noopener noreferrer">
                  <img src={navIcon3} alt="Gmail" />
                 </a>
+                
               </div>
             </span>
           </Navbar.Collapse>
