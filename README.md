@@ -45,5 +45,3 @@ I enjoy building **real-world projects**, exploring emerging technologies, and c
 
 ---
 
-![Home Page](screenshots/home.png)
-![Projects Section](screenshots/projects.png)
