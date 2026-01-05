@@ -1,26 +1,49 @@
-# Keerthana M — Personal Portfolio
-🌐 **Live Portfolio:** [https://keerthana-m-portfolio.netlify.app/](https://keerthana-m-portfolio.netlify.app/)
-Welcome to my personal portfolio! 💻  
-I am a **B.Tech AI & Data Science student (Class of 2027)** with a passion for **Artificial Intelligence, Machine Learning, Data Analytics, and Robotics**. This repository hosts the source code for my portfolio website, showcasing my projects, skills, certifications, and achievements.
+# 🌐 Keerthana M – Portfolio Website
+
+Welcome to my personal portfolio website repository!  
+This project showcases my **skills, projects and experience** as a **B.Tech AI & Data Science student**, aspiring to become an **AI Engineer**.
+
+🔗 **Live Portfolio:**  
+👉 https://keerthana-m-portfolio.netlify.app/
 
 ---
 
-## 🌟 Portfolio Features
+## 👩‍💻 About Me
 
-- **Responsive Design**: Mobile-friendly layout built with modern CSS and JavaScript.  
-- **Project Showcase**: Displays AI, ML, Data Analytics, and Robotics projects with images, descriptions, and GitHub links.  
-- **Interactive UI**: Smooth navigation and professional layout for recruiters and visitors.  
-- **Certificates & Skills**: Highlights workshops, internships, and technical skills.  
+I am **Keerthana M**, a passionate **AI & Data Science undergraduate (2023–2027)** with hands-on experience in:
+
+- Artificial Intelligence  
+- Machine Learning  
+- Data Analytics  
+
+I enjoy building **real-world projects**, exploring emerging technologies, and continuously improving my technical and communication skills.
 
 ---
 
-## 🚀 Running Locally
+## 🛠️ Tech Stack
 
-To view the portfolio locally, make sure you have **Node.js** installed. Then run:
+### Frontend
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript  
 
-```bash
-# Install dependencies
-npm install
+### Tools & Platforms
+- Git & GitHub  
+- Netlify (Deployment)  
+- VS Code  
 
-# Start the development server
-npm start
+---
+
+## 📂 Portfolio Sections
+
+- Home – Introduction and overview  
+- About – Academic background and interests  
+- Skills – Technical skillset  
+- Projects – Hands-on projects with details   
+- Contact – Professional links  
+
+---
+
+![Home Page](screenshots/home.png)
+![Projects Section](screenshots/projects.png)
