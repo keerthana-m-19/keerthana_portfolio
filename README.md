@@ -13,7 +13,7 @@ Welcome to my personal portfolio! This repository contains the source code for m
 ## 👩‍💻 About Me
 
 Hi, I’m **Keerthana M**, an AI & Data Science undergraduate (B.Tech 2023–2027) aspiring to become an **AI Engineer**.  
-I’m passionate about building real-world applications using Machine Learning, AI, and Data Analytics — and continuously learning new technologies to grow as a developer. 💡 :contentReference[oaicite:3]{index=3}
+I’m passionate about building real-world applications using Machine Learning, AI, and Data Analytics — and continuously learning new technologies to grow as a developer.
 
 ---
 
@@ -23,12 +23,12 @@ I’m passionate about building real-world applications using Machine Learning, 
 - **React.js**
 - **HTML5**
 - **CSS3**
-- **JavaScript** :contentReference[oaicite:4]{index=4}
+- **JavaScript** 
 
 ### Tools & Platforms
 - **Git & GitHub**
 - **Netlify** (for deployment)
-- **VS Code** :contentReference[oaicite:5]{index=5}
+- **VS Code** 
 
 ---
 
@@ -40,7 +40,7 @@ This portfolio includes:
 - **About** – Academic background and interests  
 - **Skills** – Technical skills showcase  
 - **Projects** – Hands‑on projects with live demos & source links  
-- **Contact** – Connect with me via LinkedIn, Email, etc. :contentReference[oaicite:6]{index=6}
+- **Contact** – Connect with me via LinkedIn, Email
 
 ---
 
