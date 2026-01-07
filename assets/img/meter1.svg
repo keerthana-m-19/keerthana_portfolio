@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204" height="204" viewBox="0 0 204 204" fill="none">
+  <!-- Outer Circle for 80% -->
+  <path d="M188 70C193 68 199 71 200 76C206 97 205 120 197 140C187 164 169 183 145 194C122 205 95 207 71 199C47 191 26 175 13 152C1 130 -3 104 3 79C9 54 24 32 45 17C66 3 92 -3 117 1C139 5 159 15 175 31C179 35 178 41 174 45C169 49 162 48 158 44C146 32 131 25 114 22C94 19 74 24 57 35C40 46 28 64 23 84C19 103 22 124 32 142C42 160 58 173 77 179C97 185 118 184 136 175C155 167 169 151 177 133C183 117 185 100 181 84C180 78 182 72 188 70Z" fill="url(#pinkBlackGradient)"/>
+  
+  <!-- Inner Text 80% -->
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-size="36" font-family="Arial" fill="url(#pinkBlackGradient)">80%</text>
+
+  <defs>
+    <linearGradient id="pinkBlackGradient" gradientTransform="rotate(90.21)">
+      <stop offset="0%" stop-color="#c11b63"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+</svg>
