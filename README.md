@@ -1,13 +1,12 @@
 # 💫 Keerthana M – Portfolio Website
 
-Welcome to my personal portfolio! This repository contains the source code for my developer portfolio website, where I showcase my skills, projects, and professional journey. 🚀 :contentReference[oaicite:1]{index=1}
+Welcome to my personal portfolio! This repository contains the source code for my developer portfolio website, where I showcase my skills, projects, and professional journey.
 
 ---
 
 ## 🌐 Live Website
 
 👉 **Portfolio Live:** https://keerthanam19-portfolio.netlify.app/  
-_(Feel free to explore the site to learn more about my work and experience!)_ :contentReference[oaicite:2]{index=2}
 
 ---
 
