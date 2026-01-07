@@ -1,16 +1,19 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import meter4 from "../assets/img/meter4.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import {
+  FaPython,
+  FaBrain,
+  FaProjectDiagram,
+  FaChartBar,
+} from "react-icons/fa";
+import { GiRobotGolem } from "react-icons/gi";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -28,56 +31,84 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-      <div className="container-fluid px-0">
+      <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Mastering the art of coding, design, and AI development.
-                <br />
-                From creating sleek interfaces to building intelligent systems,
-                these are the tools and technologies I excel at.
+                Tools and technologies I’ve worked with through hands-on projects,
+                coursework, and real-world experimentation.
               </p>
 
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="owl-carousel owl-theme skill-slider"
+                className="skill-slider"
               >
-                <div className="item">
-                  <img src={meter3} alt="AI skill level" />
-                  <h5>Artificial Intelligence</h5>
+                {/* Artificial Intelligence */}
+                <div className="skill-card">
+                  <div className="skill-header">
+                    <FaBrain className="skill-icon" />
+                    <h4>Artificial Intelligence</h4>
+                  </div>
+                  <ul>
+                    <li>CNN basics, YOLO object detection</li>
+                    <li>NLP fundamentals</li>
+                    <li>CyberAegis – real-time threat monitoring system</li>
+                  </ul>
                 </div>
 
-                <div className="item">
-                  <img src={meter3} alt="ML skill level" />
-                  <h5>Machine Learning</h5>
+                {/* Machine Learning */}
+                <div className="skill-card">
+                  <div className="skill-header">
+                    <FaProjectDiagram className="skill-icon" />
+                    <h4>Machine Learning</h4>
+                  </div>
+                  <ul>
+                    <li>KNN, Logistic Regression</li>
+                    <li>Model training & evaluation</li>
+                    <li>Scikit-learn, Pandas, NumPy</li>
+                  </ul>
                 </div>
 
-                <div className="item">
-                  <img src={meter3} alt="Data analytics skill level" />
-                  <h5>Data Analytics</h5>
+                {/* Data Analytics */}
+                <div className="skill-card">
+                  <div className="skill-header">
+                    <FaChartBar className="skill-icon" />
+                    <h4>Data Analytics</h4>
+                  </div>
+                  <ul>
+                    <li>Sales & salary data analysis projects</li>
+                    <li>Data cleaning & visualization</li>
+                    <li>Matplotlib, Seaborn, SQL</li>
+                  </ul>
                 </div>
 
-                <div className="item">
-                  <img src={meter4} alt="Python skill level" />
-                  <h5>Python Programming</h5>
+                {/* Python */}
+                <div className="skill-card">
+                  <div className="skill-header">
+                    <FaPython className="skill-icon" />
+                    <h4>Python Programming</h4>
+                  </div>
+                  <ul>
+                    <li>Scripts, automation & APIs</li>
+                    <li>Flask backend development</li>
+                    <li>Project-based coding approach</li>
+                  </ul>
                 </div>
 
-                <div className="item">
-                  <img src={meter2} alt="Deep learning skill level" />
-                  <h5>Deep Learning</h5>
-                </div>
-
-                <div className="item">
-                  <img src={meter2} alt="Computer vision skill level" />
-                  <h5>Computer Vision</h5>
-                </div>
-
-                <div className="item">
-                  <img src={meter1} alt="Robotics skill level" />
-                  <h5>Robotics</h5>
+                {/* Robotics */}
+                <div className="skill-card">
+                  <div className="skill-header">
+                    <GiRobotGolem className="skill-icon" />
+                    <h4>Robotics</h4>
+                  </div>
+                  <ul>
+                    <li>Robot Dog project (team-based)</li>
+                    <li>Raspberry Pi, servo motors</li>
+                    <li>YOLO-based object detection</li>
+                  </ul>
                 </div>
               </Carousel>
             </div>
@@ -85,7 +116,6 @@ export const Skills = () => {
         </div>
       </div>
 
-      {/* Decorative background image */}
       <img
         className="background-image-left"
         src={colorSharp}
