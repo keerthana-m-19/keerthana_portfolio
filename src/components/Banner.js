@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
-  const toRotate = useMemo(() => ["AI Engineer",
-    "ML Enthusiast",
-    "Data Analytics Explorer",
-    "Robotics Developer"], []);
+  const toRotate = useMemo(() => [
+  "with ML Expertise",
+  "| Data Analytics",
+  "| Robotics"
+], []);
   const period = 2000;
 
   const [loopNum, setLoopNum] = useState(0);
@@ -46,12 +47,14 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{`Hi! I'm Keerthana Aspiring`}<span className="wrap"> {text}</span></h1>
+            <h1>
+               Hi! I'm Keerthana — Aspiring AI Engineer <span className="wrap">{text}</span>
+            </h1>
             <p>
-              Passionate about Artificial Intelligence, Machine Learning,
-                    and Data Analytics, I’m currently pursuing my B.Tech in AI & DS.
-                    With hands-on projects in robotics, I love building innovative
-                    solutions that merge creativity with technology.
+              Aspiring AI Engineer with a strong foundation in Machine Learning and
+              Data Analytics. Currently pursuing B.Tech in AI & DS, with hands-on
+              experience in AI-driven projects and robotics systems. Passionate about
+              building intelligent, real-world solutions.
             </p>
           </Col>
 
