@@ -11,31 +11,31 @@ export const Projects = () => {
   const projects = [
     {
       title: "Machine Learning",
-      description: "Logistic Regression",
+      description: "Logistic Regression – Classification Model",
       imgUrl: projImg1,
       link: "https://github.com/keerthana-m-19/logistic_regression",
     },
     {
       title: "Artificial Intelligence",
-      description: "AI Emotion Recognition",
+      description: "Emotion Recognition using AI",
       imgUrl: projImg2,
       link: "https://github.com/keerthana-m-19/AI-Emotion-recognition",
     },
     {
       title: "Data Analytics",
-      description: "Netflix Analysis",
+      description: "Netflix Data Analysis & Insights",
       imgUrl: projImg3,
       link: "https://github.com/keerthana-m-19/netflix-analysis",
     },
     {
       title: "Machine Learning",
-      description: "K Nearest Neighbors",
+      description: "KNN-based Salary Estimation",
       imgUrl: projImg1,
       link: "https://github.com/keerthana-m-19/KNN-Salary-Estimation",
     },
     {
       title: "Computer Vision",
-      description: "Realtime yolov8",
+      description: "Real-time Object Detection using YOLOv8",
       imgUrl: projImg2,
       link: "https://github.com/keerthana-m-19/realtime-yolov8",
     },
@@ -63,30 +63,28 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Showcasing my journey of creativity and innovation.
-                    <br />
-                    From interactive web applications to intelligent AI
-                    solutions, these projects highlight my skills,
-                    passion, and problem-solving expertise.
+                    A collection of hands-on projects demonstrating my journey
+                    as an aspiring AI Engineer. These works reflect my ability
+                    to apply Artificial Intelligence, Machine Learning, and Data
+                    Analytics concepts to solve real-world problems.
                   </p>
 
                   <Tab.Container
                     id="projects-tabs"
-                    defaultActiveKey="first"
+                    defaultActiveKey="ai"
                   >
                     <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
-                      id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="ai">AI & ML</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="da">Data Analytics</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="about">Overview</Nav.Link>
                       </Nav.Item>
                     </Nav>
 
@@ -98,36 +96,49 @@ export const Projects = () => {
                           : ""
                       }
                     >
-                      <Tab.Pane eventKey="first">
+                      {/* AI & ML Projects */}
+                      <Tab.Pane eventKey="ai">
                         <Row>
-                          {projects.map((project, index) => {
-                            return (
+                          {projects
+                            .filter(
+                              (p) =>
+                                p.title === "Artificial Intelligence" ||
+                                p.title === "Machine Learning" ||
+                                p.title === "Computer Vision"
+                            )
+                            .map((project, index) => (
                               <ProjectCard
                                 key={index}
                                 {...project}
                               />
-                            );
-                          })}
+                            ))}
                         </Row>
                       </Tab.Pane>
 
-                      <Tab.Pane eventKey="second">
-                        <p>
-                          This project demonstrates my ability to
-                          solve complex problems and build efficient
-                          solution. From planning to execution, I
-                          ensure every detail reflects quality,
-                          innovation, and functionality.
-                        </p>
+                      {/* Data Analytics Projects */}
+                      <Tab.Pane eventKey="da">
+                        <Row>
+                          {projects
+                            .filter(
+                              (p) => p.title === "Data Analytics"
+                            )
+                            .map((project, index) => (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                              />
+                            ))}
+                        </Row>
                       </Tab.Pane>
 
-                      <Tab.Pane eventKey="third">
+                      {/* Overview */}
+                      <Tab.Pane eventKey="about">
                         <p>
-                          This project highlights my expertise in
-                          creating innovative solutions and seamless
-                          user experiences. Every feature is crafted
-                          to combine functionality, efficiency, and
-                          aesthetic appeal.
+                          These projects represent my continuous learning and
+                          experimentation in AI and data-driven technologies.
+                          I focus on building solutions that are practical,
+                          scalable, and aligned with real-world use cases,
+                          strengthening my foundation as an AI Engineer.
                         </p>
                       </Tab.Pane>
                     </Tab.Content>
@@ -139,11 +150,11 @@ export const Projects = () => {
         </Row>
       </Container>
 
-      {/* ✔ Added alt tag for accessibility */}
       <img
         className="background-image-left"
         src={colorSharp}
         alt=""
+        role="presentation"
       />
     </section>
   );
