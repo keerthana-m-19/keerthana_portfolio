@@ -38,7 +38,7 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>
                 Tools and technologies I’ve worked with through hands-on projects,
-                coursework, and real-world experimentation.
+                academic coursework, and real-world experimentation.
               </p>
 
               <Carousel
@@ -53,9 +53,9 @@ export const Skills = () => {
                     <h4>Artificial Intelligence</h4>
                   </div>
                   <ul>
-                    <li>CNN basics, YOLO object detection</li>
-                    <li>NLP fundamentals</li>
-                    <li>CyberAegis – real-time threat monitoring system</li>
+                    <li>CNN fundamentals, YOLO-based object detection</li>
+                    <li>NLP basics (text preprocessing, tokenization)</li>
+                    <li>CyberAegis – AI-driven real-time threat monitoring system</li>
                   </ul>
                 </div>
 
@@ -66,8 +66,8 @@ export const Skills = () => {
                     <h4>Machine Learning</h4>
                   </div>
                   <ul>
-                    <li>KNN, Logistic Regression</li>
-                    <li>Model training & evaluation</li>
+                    <li>KNN, Logistic Regression (classification)</li>
+                    <li>Model training, evaluation & tuning</li>
                     <li>Scikit-learn, Pandas, NumPy</li>
                   </ul>
                 </div>
@@ -79,8 +79,8 @@ export const Skills = () => {
                     <h4>Data Analytics</h4>
                   </div>
                   <ul>
-                    <li>Sales & salary data analysis projects</li>
-                    <li>Data cleaning & visualization</li>
+                    <li>Exploratory Data Analysis (EDA)</li>
+                    <li>Data cleaning, visualization & insights</li>
                     <li>Matplotlib, Seaborn, SQL</li>
                   </ul>
                 </div>
@@ -92,9 +92,9 @@ export const Skills = () => {
                     <h4>Python Programming</h4>
                   </div>
                   <ul>
-                    <li>Scripts, automation & APIs</li>
-                    <li>Flask backend development</li>
-                    <li>Project-based coding approach</li>
+                    <li>Python for AI/ML scripting & automation</li>
+                    <li>Flask backend APIs for AI projects</li>
+                    <li>Project-based problem-solving approach</li>
                   </ul>
                 </div>
 
@@ -105,9 +105,9 @@ export const Skills = () => {
                     <h4>Robotics</h4>
                   </div>
                   <ul>
-                    <li>Robot Dog project (team-based)</li>
-                    <li>Raspberry Pi, servo motors</li>
-                    <li>YOLO-based object detection</li>
+                    <li>Robot Dog project – AI-powered robotics (team-based)</li>
+                    <li>Raspberry Pi, servo motors & hardware integration</li>
+                    <li>YOLO-based vision for robotic perception</li>
                   </ul>
                 </div>
               </Carousel>
