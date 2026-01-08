@@ -2,10 +2,22 @@ import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, link }) => {
   return (
-    <Col size={12} sm={6} md={4}>
+    <Col xs={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <img src={imgUrl} alt={title} />
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`View ${title} project on GitHub`}
+        >
+          {imgUrl && (
+            <img
+              src={imgUrl}
+              alt={title ? `${title} project preview` : "Project preview"}
+              loading="lazy"
+            />
+          )}
+
           <div className="proj-txtx">
             <h4>{title}</h4>
             <span>{description}</span>
@@ -13,5 +25,5 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
         </a>
       </div>
     </Col>
-  )
-}
+  );
+};
