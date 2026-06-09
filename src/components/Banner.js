@@ -4,7 +4,6 @@ import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
   const toRotate = useMemo(() => [
-  "Machine Learning",
   "| Data Analytics",
   "| Computer Vision"
 ], []);
