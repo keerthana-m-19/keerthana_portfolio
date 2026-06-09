@@ -7,11 +7,11 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row className="justify-content-center">
           <Col size={12} sm={6}>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+            <div className="social-icon justify-content-center justify-content-sm-end">
               <a href="https://www.linkedin.com/in/keerthanam19" target="_blank" rel="noopener noreferrer">
                  <img src={navIcon1} alt="LinkedIn" />
               </a>
