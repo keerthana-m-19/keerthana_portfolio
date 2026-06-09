@@ -4,9 +4,9 @@ import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
   const toRotate = useMemo(() => [
-  "with ML Expertise",
+  "Machine Learning",
   "| Data Analytics",
-  "| Robotics"
+  "| Computer Vision"
 ], []);
   const period = 2000;
 
@@ -48,16 +48,13 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-               Hi! I'm Keerthana — Aspiring AI Engineer <span className="wrap">{text}</span>
+               Hi! I'm Keerthana — Aspiring ML Engineer <span className="wrap">{text}</span>
             </h1>
             <p>
-              Aspiring AI Engineer with a strong foundation in Machine Learning and
-              Data Analytics. Currently pursuing B.Tech in AI & DS, with hands-on
-              experience in AI-driven projects and robotics systems. Passionate about
-              building intelligent, real-world solutions.
+              I am a B.Tech AI & DS student passionate about Machine Learning, Data Analytics, and Computer Vision.
+              I enjoy building data-driven applications, exploring predictive models, and solving real-world problems through technology and innovation.
             </p>
           </Col>
-
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Img" />
           </Col>
