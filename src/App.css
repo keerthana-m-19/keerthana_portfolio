@@ -187,7 +187,7 @@ span.navbar-text {
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
-    box-shadow: none;
+  box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {
   width: 24px;
@@ -302,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills Section ************/
 .skill {
   position: relative;
-  padding-bottom: 50px;
+  padding: 0 0 50px 0;
 }
 
 /* Main container */
@@ -322,11 +322,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Description */
 .skill p {
-  margin: 14px 0 75px;
-  font-size: 19px;
-  line-height: 1.6;
+  margin: 14px 0 75px 0;
+  font-size: 18px;
+  line-height: 1.5em;
   letter-spacing: 0.8px;
-  color: #b8b8b8;
+  color: #B8B8B8;
 }
 
 /* Carousel wrapper */
@@ -339,11 +339,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Background decoration */
 .background-image-left {
   position: absolute;
-  top: -25%;
-  left: 0;
-  right: 0;
+  top: 28%;
+  bottom: 0;
   width: 40%;
-  transform: translateY(28%);
   z-index: -4;
 }
 
@@ -519,8 +517,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx a,
 .proj-imgbx a .proj-txtx h4,
 .proj-imgbx a .proj-txtx span {
-  color: #fff !important;   /* make text white */
-  text-decoration: none !important;  /* remove underline */
+  color: #fff !important;  
+  text-decoration: none !important;  
 }
 
 .background-image-right {
@@ -616,7 +614,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer img {
-  width: 26%;
+  width: 25%;
 }
 .footer p {
   font-weight: 400;
