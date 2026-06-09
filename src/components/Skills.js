@@ -46,70 +46,76 @@ export const Skills = () => {
                 infinite={true}
                 className="skill-slider"
               >
-                {/* Artificial Intelligence */}
-                <div className="skill-card">
-                  <div className="skill-header">
-                    <FaBrain className="skill-icon" />
-                    <h4>Artificial Intelligence</h4>
-                  </div>
-                  <ul>
-                    <li>CNN fundamentals, YOLO-based object detection</li>
-                    <li>NLP basics (text preprocessing, tokenization)</li>
-                    <li>CyberAegis – AI-driven real-time threat monitoring system</li>
-                  </ul>
-                </div>
-
                 {/* Machine Learning */}
-                <div className="skill-card">
-                  <div className="skill-header">
-                    <FaProjectDiagram className="skill-icon" />
-                    <h4>Machine Learning</h4>
-                  </div>
-                  <ul>
-                    <li>KNN, Logistic Regression (classification)</li>
-                    <li>Model training, evaluation & tuning</li>
-                    <li>Scikit-learn, Pandas, NumPy</li>
-                  </ul>
-                </div>
 
-                {/* Data Analytics */}
-                <div className="skill-card">
-                  <div className="skill-header">
-                    <FaChartBar className="skill-icon" />
-                    <h4>Data Analytics</h4>
-                  </div>
-                  <ul>
-                    <li>Exploratory Data Analysis (EDA)</li>
-                    <li>Data cleaning, visualization & insights</li>
-                    <li>Matplotlib, Seaborn, SQL</li>
-                  </ul>
-                </div>
+<div className="skill-card">
+  <div className="skill-header">
+    <FaProjectDiagram className="skill-icon" />
+    <h4>Machine Learning</h4>
+  </div>
+  <ul>
+    <li>Classification, Regression & Clustering</li>
+    <li>Model Training, Evaluation & Feature Engineering</li>
+    <li>Scikit-learn, Pandas & NumPy</li>
+  </ul>
+</div>
 
-                {/* Python */}
-                <div className="skill-card">
-                  <div className="skill-header">
-                    <FaPython className="skill-icon" />
-                    <h4>Python Programming</h4>
-                  </div>
-                  <ul>
-                    <li>Python for AI/ML scripting & automation</li>
-                    <li>Flask backend APIs for AI projects</li>
-                    <li>Project-based problem-solving approach</li>
-                  </ul>
-                </div>
+{/* Data Analytics */}
 
-                {/* Robotics */}
-                <div className="skill-card">
-                  <div className="skill-header">
-                    <GiRobotGolem className="skill-icon" />
-                    <h4>Robotics</h4>
-                  </div>
-                  <ul>
-                    <li>Robot Dog project – AI-powered robotics (team-based)</li>
-                    <li>Raspberry Pi, servo motors & hardware integration</li>
-                    <li>YOLO-based vision for robotic perception</li>
-                  </ul>
-                </div>
+<div className="skill-card">
+  <div className="skill-header">
+    <FaChartBar className="skill-icon" />
+    <h4>Data Analytics</h4>
+  </div>
+  <ul>
+    <li>Exploratory Data Analysis (EDA)</li>
+    <li>Data Cleaning, Visualization & Insights</li>
+    <li>Matplotlib, Seaborn & SQL</li>
+  </ul>
+</div>
+
+{/* Computer Vision */}
+
+<div className="skill-card">
+  <div className="skill-header">
+    <FaBrain className="skill-icon" />
+    <h4>Computer Vision</h4>
+  </div>
+  <ul>
+    <li>YOLOv8 Object Detection</li>
+    <li>OpenCV-based Image Processing</li>
+    <li>Real-Time Emotion Recognition</li>
+  </ul>
+</div>
+
+{/* Python */}
+
+<div className="skill-card">
+  <div className="skill-header">
+    <FaPython className="skill-icon" />
+    <h4>Python Programming</h4>
+  </div>
+  <ul>
+    <li>Python for ML & Data Analytics</li>
+    <li>Data Processing & Automation</li>
+    <li>Problem Solving & Project Development</li>
+  </ul>
+</div>
+
+{/* Tools & Technologies */}
+
+<div className="skill-card">
+  <div className="skill-header">
+    <GiRobotGolem className="skill-icon" />
+    <h4>Tools & Technologies</h4>
+  </div>
+  <ul>
+    <li>Git, GitHub & VS Code</li>
+    <li>Jupyter Notebook & MySQL</li>
+    <li>Version Control & Collaboration</li>
+  </ul>
+</div>
+
               </Carousel>
             </div>
           </div>
